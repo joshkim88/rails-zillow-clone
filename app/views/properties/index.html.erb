@@ -1,0 +1,18 @@
+<h1>All Properties</h1>
+  <% @properties.each do |property|  %>
+    <p><%= property.address %></p>
+    <p><%= property.bedrooms %></p>
+    <p><%= property.bathrooms %></p>
+    <p><%= property.size %></p>
+  <% end %>
+<!--
+<% @properties.each %>
+  <h5><%= property.address %></h5>
+  <h5><%= property.type %></h5>
+  <h6>bedrooms:<%= property.bedrooms %></h6>
+  <h6>bathrooms: <%= property.bathrooms %></h6>
+  <h6>squarefeet: <%= property.size %></h6>
+  <p>overview: <%= property.overview %></p>
+  <p>date: <%= property.date %></p>
+<%  %>
+-->
